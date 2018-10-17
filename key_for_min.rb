@@ -4,10 +4,8 @@
 def key_for_min_value(name_hash)
   new_name_hash = {}
   name_hash.each do |name, number|
-    (0..name_hash.length).each do |i|
-      if number == i
-        new_name_hash[name] = number
-      end
+    while number < name_hash.length
+      new_name_hash[name] = number
     end
   end
   new_name_hash.first
