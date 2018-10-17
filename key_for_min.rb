@@ -8,5 +8,5 @@ def key_for_min_value(name_hash)
       new_name_hash[name] = number
     end
   end
-  new_name_hash.first
+  new_name_hash[0][0]
 end
