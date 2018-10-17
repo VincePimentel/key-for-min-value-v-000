@@ -7,6 +7,6 @@ def key_for_min_value(name_hash)
     while number < name_hash.length
       min_value += 1
     end
+    min_value
   end
-  min_value
 end
